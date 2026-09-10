@@ -36,7 +36,7 @@
         }
     </script>
 
-    <!-- FontAwesome Icons & Styles -->
+    <!-- FontAwesome Icons & Custom Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         .no-scrollbar::-webkit-scrollbar { display: none; }
@@ -45,6 +45,7 @@
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
+    <!-- Top Info Bar -->
     <div class="bg-brand-navyDark text-slate-300 text-xs sm:text-sm py-2 px-4 border-b border-slate-800">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
             <div class="flex items-center gap-4">
@@ -58,6 +59,7 @@
         </div>
     </div>
 
+    <!-- Navigation Bar -->
     <nav class="sticky top-0 z-40 bg-brand-navy shadow-lg text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
@@ -73,7 +75,6 @@
 
                 <div class="hidden lg:flex items-center space-x-5 text-sm font-medium">
                     <a href="#beranda" class="hover:text-brand-orange transition-colors">Beranda</a>
-                    <a href="#tentang" class="hover:text-brand-orange transition-colors">Tentang Kami</a>
                     <a href="#katalog" class="hover:text-brand-orange transition-colors">Katalog Produk</a>
                     <a href="#portofolio" class="hover:text-brand-orange transition-colors">Portofolio</a>
                     <a href="#kalkulator" class="hover:text-brand-orange transition-colors">Kalkulator Biaya</a>
@@ -95,7 +96,6 @@
 
         <div id="mobile-menu" class="hidden lg:hidden bg-brand-navyDark border-t border-slate-800 px-4 pt-3 pb-6 space-y-3">
             <a href="#beranda" class="mobile-link block py-2 text-slate-200 hover:text-brand-orange">Beranda</a>
-            <a href="#tentang" class="mobile-link block py-2 text-slate-200 hover:text-brand-orange">Tentang Kami</a>
             <a href="#katalog" class="mobile-link block py-2 text-slate-200 hover:text-brand-orange">Katalog Produk</a>
             <a href="#portofolio" class="mobile-link block py-2 text-slate-200 hover:text-brand-orange">Portofolio</a>
             <a href="#kalkulator" class="mobile-link block py-2 text-slate-200 hover:text-brand-orange">Kalkulator Biaya</a>
@@ -108,6 +108,7 @@
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <section id="beranda" class="relative bg-brand-navy text-white overflow-hidden">
         <div class="absolute inset-0 z-0 opacity-25 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80');"></div>
         <div class="absolute inset-0 z-0 bg-gradient-to-r from-brand-navy via-brand-navy/90 to-transparent"></div>
@@ -149,6 +150,7 @@
         </div>
     </section>
 
+    <!-- Katalog Produk -->
     <section id="katalog" class="py-20 bg-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-12">
@@ -175,6 +177,7 @@
         </div>
     </section>
 
+    <!-- Portofolio Proyek -->
     <section id="portofolio" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-12">
@@ -198,6 +201,7 @@
         </div>
     </section>
 
+    <!-- Kalkulator Estimasi Biaya -->
     <section id="kalkulator" class="py-20 bg-brand-navy text-white">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-12">
@@ -242,6 +246,7 @@
         </div>
     </section>
 
+    <!-- Daftar Harga Section -->
     <section id="daftar-harga" class="py-20 bg-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-10">
@@ -285,6 +290,7 @@
         </div>
     </section>
 
+    <!-- Contact / Survey Form -->
     <section id="kontak" class="py-20 bg-slate-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
@@ -366,6 +372,7 @@
         </div>
     </section>
 
+    <!-- Testimoni Pelanggan -->
     <section id="testimoni" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-12">
@@ -377,6 +384,7 @@
         </div>
     </section>
 
+    <!-- Artikel & Tips -->
     <section id="blog" class="py-20 bg-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-12">
@@ -388,6 +396,7 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="bg-brand-navyDark text-slate-400 py-12 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
@@ -428,7 +437,7 @@
     <div id="product-modal" class="fixed inset-0 bg-black/70 z-50 hidden flex items-center justify-center p-4">
         <div class="bg-white rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl relative">
             <button onclick="closeProductModal()" class="absolute top-3 right-3 bg-slate-100 hover:bg-slate-200 rounded-full w-8 h-8 flex items-center justify-center text-slate-600 font-bold z-10">&times;</button>
-            <img id="modal-img" src="" class="w-full h-56 object-cover">
+            <img id="modal-img" src="" class="w-full h-56 object-cover" alt="Detail Produk">
             <div class="p-6 space-y-4">
                 <span id="modal-cat" class="text-xs font-bold text-brand-orange uppercase tracking-wider"></span>
                 <h3 id="modal-title" class="text-xl font-bold text-brand-navy"></h3>
@@ -838,7 +847,7 @@
 
     <script>
         // CONFIGURATION & BACKEND INTEGRATION
-        const GAS_BACKEND_URL = "https://script.google.com/macros/s/AKfycbwhrQz-HfxHyQVuXw68Jhu6uNgMgkjw7y3lzKRn5glzKmKcPQwmpdM0P1TsTjccskxkWg/exec";
+        const GAS_BACKEND_URL = "https://script.google.com/macros/s/AKfycbwa5vuoy3hK1pckbwh1NqFy4GhdFvF9IRYMpcXvOXTc-qSuYGjUFNbKr9DyL9g_jSaHlg/exec";
 
         // DATA STORES
         let productsData = [];
@@ -873,6 +882,8 @@
         ];
 
         document.addEventListener("DOMContentLoaded", () => {
+            loadCachedData();
+
             renderProducts(productsData);
             renderPortfolio(portfolioData);
             renderTestimonials();
@@ -897,6 +908,39 @@
             }
         });
 
+        function loadCachedData() {
+            try {
+                const cProd = localStorage.getItem("bj_cache_products");
+                if (cProd) productsData = JSON.parse(cProd);
+
+                const cPort = localStorage.getItem("bj_cache_portfolio");
+                if (cPort) portfolioData = JSON.parse(cPort);
+
+                const cBlog = localStorage.getItem("bj_cache_blogs");
+                if (cBlog) blogArticles = JSON.parse(cBlog);
+
+                const cPrice = localStorage.getItem("bj_cache_pricelist");
+                if (cPrice) priceData = JSON.parse(cPrice);
+
+                const cRates = localStorage.getItem("bj_cache_calcrates");
+                if (cRates) calcRates = JSON.parse(cRates);
+            } catch (e) {
+                console.warn("Gagal membaca cache lokal:", e);
+            }
+        }
+
+        function saveToLocalCache() {
+            try {
+                localStorage.setItem("bj_cache_products", JSON.stringify(productsData));
+                localStorage.setItem("bj_cache_portfolio", JSON.stringify(portfolioData));
+                localStorage.setItem("bj_cache_blogs", JSON.stringify(blogArticles));
+                localStorage.setItem("bj_cache_pricelist", JSON.stringify(priceData));
+                localStorage.setItem("bj_cache_calcrates", JSON.stringify(calcRates));
+            } catch (e) {
+                console.warn("Gagal menyimpan cache lokal:", e);
+            }
+        }
+
         async function sendToBackend(action, data) {
             if (!GAS_BACKEND_URL || GAS_BACKEND_URL.includes("YOUR_SCRIPT_ID")) {
                 console.warn("GAS Backend URL belum diset. Berjalan dalam mode lokal.");
@@ -919,10 +963,11 @@
             }
         }
 
-        async function fetchBackendData() {
+        async function fetchBackendData(isAdmin = false) {
             if (!GAS_BACKEND_URL || GAS_BACKEND_URL.includes("YOUR_SCRIPT_ID")) return;
             try {
-                const response = await fetch(GAS_BACKEND_URL);
+                const targetUrl = isAdmin ? `${GAS_BACKEND_URL}?scope=admin` : GAS_BACKEND_URL;
+                const response = await fetch(targetUrl);
                 const data = await response.json();
                 
                 if (data.products) productsData = data.products;
@@ -932,6 +977,8 @@
                 if (data.calcRates && Object.keys(data.calcRates).length > 0) calcRates = { ...calcRates, ...data.calcRates };
                 if (data.leads) leadsCRM = data.leads;
                 if (data.admins) adminsList = data.admins;
+
+                saveToLocalCache();
 
                 renderProducts(productsData);
                 renderPortfolio(portfolioData);
@@ -965,7 +1012,7 @@
                 grid.innerHTML += `
                     <div class="bg-white rounded-xl overflow-hidden shadow-md border border-slate-200 flex flex-col justify-between hover:shadow-xl transition-all">
                         <div>
-                            <img src="${p.url_foto || p.img}" alt="${p.nama || p.name}" class="w-full h-44 object-cover" onerror="this.src='https://placehold.co/600x400/0F172A/F97316?text=Berkah+Jaya'">
+                            <img src="${p.url_foto || p.img}" alt="${p.nama || p.name}" loading="lazy" class="w-full h-44 object-cover" onerror="this.src='https://placehold.co/600x400/0F172A/F97316?text=Berkah+Jaya'">
                             <div class="p-5">
                                 <span class="text-[10px] font-bold bg-brand-orange/10 text-brand-orange px-2 py-1 rounded tracking-wider uppercase">${p.kategori || p.category}</span>
                                 <h3 class="font-bold text-slate-900 text-base mt-2 leading-snug">${p.nama || p.name}</h3>
@@ -1032,7 +1079,7 @@
             list.forEach(p => {
                 grid.innerHTML += `
                     <div class="group relative rounded-xl overflow-hidden shadow-lg border border-slate-200">
-                        <img src="${p.url_foto || p.img}" alt="${p.judul || p.title}" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='https://placehold.co/600x400/0F172A/F97316?text=Proyek+Berkah+Jaya'">
+                        <img src="${p.url_foto || p.img}" alt="${p.judul || p.title}" loading="lazy" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.src='https://placehold.co/600x400/0F172A/F97316?text=Proyek+Berkah+Jaya'">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/60 to-transparent p-5 flex flex-col justify-end text-white">
                             <span class="text-[10px] font-bold text-brand-orange uppercase">${p.kategori || p.category} &bull; ${p.lokasi || p.location}</span>
                             <h4 class="font-bold text-lg">${p.judul || p.title}</h4>
@@ -1264,7 +1311,8 @@
                         document.getElementById("admin-role-badge").innerText = result.user.role;
                         closeAdminModal();
                         document.getElementById("admin-dashboard-panel").classList.remove("hidden");
-                        await fetchBackendData();
+                        
+                        await fetchBackendData(true);
                     } else {
                         errBox.innerText = result.message || "Username/Password salah!";
                         errBox.classList.remove("hidden");
